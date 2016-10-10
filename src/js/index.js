@@ -1,10 +1,67 @@
 jQuery(function($){
-	//轮播图
-	$(".lbt").xcarousel({
-		width:1263,
-		height:474,
-		buttons:false,
-		type:'fade'
+	var $lbt=$(".lbt-list");
+	var $hnl=$(".hnl-list");
+	var $choose=$(".choose-list");
+	var $nuts=$(".nuts-list");
+	var $meat=$(".meat-list");
+	var $fresh=$(".fresh-list");
+	//利用Ajax进行图片的添加 实现轮播图效果
+	$.ajax({
+		type:"get",
+		url:"data/goods.json",
+		async:true,
+		success:function(rel){
+			$.each(rel, function(idx,obj) {
+				if (obj.class == "lbt") {
+					var $a=$("<a></a>").attr("href","html/list.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($lbt);
+				}
+				if (obj.class == "hnl") {
+					var $a=$("<a></a>").attr("href","html/details.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($hnl);
+				}
+				if (obj.class == "choose") {
+					var $a=$("<a></a>").attr("href","html/details.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($choose);
+				}
+				if (obj.class == "nuts") {
+					var $a=$("<a></a>").attr("href","html/details.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($nuts);
+				}
+				if (obj.class == "meat") {
+					var $a=$("<a></a>").attr("href","html/details.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($meat);
+				}
+				if (obj.class == "fresh") {
+					var $a=$("<a></a>").attr("href","html/details.html");
+					var $img=$("<img />").attr("src",obj.src);
+					var $li=$("<li/>");
+					$a.append($img);
+					$li.append($a).appendTo($fresh);
+				}
+			});
+			$(".lbt").xcarousel({
+				width:1263,
+				height:474,
+				buttons:false,
+				type:'fade'
+			});
+		}
 	});
 	//所有零食下的列表
 	$(".head-bottom ul").children().eq(0).on("mouseenter",function(){
@@ -33,15 +90,5 @@ jQuery(function($){
 		$(".right-fixed ul").children().eq(3).on("click",function(){
 			$(document).scrollTop(0);
 		});
-	//利用Ajax 进行替换图片
-	$.ajax({
-		type:"get",
-		url:"data/goods.json",
-		async:true,
-		success:function(rel){
-			$.each(rel, function(idx,obj) {
-				
-			});
-		}
-	});
+	
 });
