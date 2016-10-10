@@ -1,0 +1,66 @@
+@charset "utf-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; font-family: "微软雅黑";}
+fieldset, img { border:none; }
+img{display: block;}
+ul, ol { list-style:none; } 
+a { text-decoration:none;}
+/***********************************head************************************/
+.head{width:1263px ;overflow: hidden;margin: 0 auto;}
+.head .head-top{padding:8px 0;background: rgb(244,243,241);overflow: hidden;}
+.head-top a{margin:0 8px; color: rgb(153,153,153);}
+.head-top a:hover{color: red;}
+.head-top .p1{float: left;margin-left: 22px;color: rgb(153,153,153);font-size: 14px;}
+.head-top .p2{float: right;margin-right:22px ;color: rgb(153,153,153);font-size: 14px;}
+.head-top span{color: red;}
+.head-center1{background: white;overflow: hidden;}
+.head-center1 img{float: left;margin-left: 22px;}
+.head-center1 .query{border: red solid 3px;width: 550px;height: 38px;float: left;margin: 31px 10px 40px 78px;border-radius: 20px;}
+.head-center1 input{border: none;height: 35px;width:430px;line-height: 34px;border-radius: 20px;outline:none;margin-left: 10px;}
+.head-center1 button{width: 100px;height: 26px;background: red;color: white;text-align: center;
+				line-height: 26px;float: right;border-radius: 20px;margin: 4px;border: none;outline:none}
+.head-center1 .shop{width: 169px;height: 38px;background: red;color: white;text-align: center;
+					line-height: 38px;border-radius: 20px;margin-top: 31px;float: left;cursor: pointer;margin-right: 22px;}
+.head-center1 .shop img{margin-left: 20px;margin-top: 8px;}
+.head-center1 a{color: white;}
+.head-center2 img{width: 1263px;}
+.head-bottom{background: rgb(214,54,42);overflow: hidden;position: relative;}
+.head-bottom .list{margin-left: 22px;}
+.head-bottom .list li{float: left;height: 36px;line-height: 36px;padding: 0 10px;background: rgb(178,25,32);}
+.head-bottom li a{color: white;}
+.head-bottom li:hover{background: cornflowerblue;}
+.head-bottom input{height: 24px;line-height: 24px;margin-top: 3px;margin-left: 20px;outline:none}
+.head-bottom button{height: 28px;background: black;color: white;border: none;outline:none}
+.hb-list{position: absolute;left: 22px;display: none;z-index: 100;}
+.bg{background: red;}
+/***********************************foot**************************************/
+.foot{width: 1263px;background: cadetblue;overflow: hidden;margin: 0 auto;min-height: 200px;}
+.foot-top{background: white;overflow: hidden;padding: 30px 40px;border-bottom:gray solid 1px ;}
+.foot-top .list li{float: left;overflow: hidden;margin-right: 40px;width: 250px;}
+.foot-top .list{margin-left: 20px;}
+.foot-top li img{float: left;margin-right: 10px;}
+.foot-top li h4{margin-top:10px ;}
+.foot-top li a{color: rgb(153,153,153);font-size: 14px;}
+.foot-center1{background: white;overflow: hidden;padding: 30px 40px;}
+.foot-center1 ul{float: left;margin-right: 80px;}
+.foot-center1 ul li{margin-bottom: 10px;}
+.foot-center1 li a{color:  rgb(153,153,153);font-size: 14px;}
+.foot-center1 li a:hover{color: red;}
+.foot-center1 .app,.foot-center1 .weixin{float: left;margin-right: 80px;}
+.foot-center1 .app h4,.foot-center1 .weixin h4{color: rgb(153,153,153);margin-bottom: 20px;}
+.foot-center2{background: white;overflow: hidden;text-align: center;}
+.foot-center2 p a{margin: 10px;color: rgb(153,153,153);}
+.foot-center2 p a:hover{color: red;}
+.foot-center2 .p1{margin-bottom: 10px;color: rgb(153,153,153);font-size: 14px;}
+.foot-center2 .p2{margin-bottom: 10px;color: rgb(153,153,153);font-size: 14px;}
+.foot-center2 .p3{color: rgb(153,153,153);font-size: 14px;}
+.foot-bottom{background: white;overflow: hidden;padding: 30px;}
+.foot-bottom .list{margin-left: 80px;}
+.foot-bottom .list li{float: left;margin: 10px;}
+/*****************************************左固定盒子*****************************/
+.left-fixed{width: 98px;border: yellow solid 1px;position: fixed;left: 0;bottom: 100px;
+			text-align: center;color: white;background: gold;}
+.left-fixed span{position: absolute;right: 0;bottom: -20px;color: black;cursor: pointer;}
+.l-fixed{position: fixed;left: 0;bottom: 150px;width: 20px;color: white;background: gold;cursor: pointer;}
+/*****************************************右固定盒子*****************************/
+.right-fixed{position: fixed;right: 0 ;bottom: 100px;}
+.right-fixed li{width: 35px;height: 35px;background: cadetblue;overflow: hidden;cursor: pointer;}

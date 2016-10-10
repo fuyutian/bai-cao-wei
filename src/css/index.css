@@ -1,0 +1,63 @@
+@charset "utf-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; font-family: "微软雅黑";}
+fieldset, img { border:none; }
+img{display: block;}
+ul, ol { list-style:none; } 
+a { text-decoration:none;}
+/**************************进店必买***********************/
+.shopurl{width: 1263px;margin: 0 auto;}
+.shopurl img{width: 1263px;}
+/**************************轮播图***********************/
+.lbt{margin: 0 auto;}
+.lbt-list img{width: 1263px;}
+/**************************折扣券***********************/
+.dis{width: 1263px;overflow: hidden;margin: 0 auto;}
+.dis div{float: left;}
+.dis .dis-left{width: 150px;}
+.dis .dis-left img{width: 150px;height: 200px;}
+.dis .dis-center{width:963px ;}
+.dis .dis-center li{float: left;}
+.dis .dis-center li img{width: 321px;height: 200px;}
+.dis .dis-right{width: 150px;}
+.dis .dis-right img{width: 150px;height: 200px;}
+.dis-bottom img{width: 1263px;}
+/**************************夏威夷果***********************/
+.hnl{width: 975px;overflow: hidden;margin: 0 auto;
+background:url(img/hnlbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
+.hnl .hnl1{width: 496px;float: left;}
+.hnl .hnl1 img{width: 496px;height: 504px;}
+.hnl2,.hnl3{width:475px ;float: left;}
+.hnl2 img,.hnl3 img{width: 475px;height: 249px;}
+.hnl2{margin-bottom: 6px;}
+.hnl .hnl-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;}
+.hnl .hnl-list li img{width: 320px;height: 369px;}
+/**************************店长推荐***********************/
+.choose{width: 975px;overflow: hidden;margin: 0 auto;
+background:url(img/hnlbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
+.choose .choose-top img{width: 975px;}
+.choose .choose-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;}
+.choose .choose-list li img{width: 320px;height: 367px;}
+/**************************干果***********************/
+.nuts{width: 975px;overflow: hidden;margin: 0 auto;
+background:url(img/nutsbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
+.nuts-top img{width: 968px;}
+.nuts .nuts-nav li{float: left;width: 121px;}
+.nuts .nuts-nav li img{width: 121px;}
+.nuts-list li{float: left;width: 240px;margin-right:3px ;}
+.nuts-list li img{width: 240px;}
+/**************************果脯***********************/
+.meat{width: 975px;overflow: hidden;margin: 0 auto;
+background:url(img/meatbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
+.meat-top img{width: 968px;}
+.meat .meat-nav li{float: left;width: 121px;}
+.meat .meat-nav li img{width: 121px;}
+.meat-list li{float: left;width: 240px;margin-right:3px ;}
+.meat-list li img{width: 240px;}
+/**************************鲜果***********************/
+.fresh{width: 975px;overflow: hidden;margin: 0 auto;
+background:url(img/freashbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
+.fresh-top img{width: 968px;}
+.fresh .fresh-nav li{float: left;width: 121px;}
+.fresh .fresh-nav li img{width: 121px;}
+.fresh-list li{float: left;width: 240px;margin-right:3px ;}
+.fresh-list li img{width: 240px;}

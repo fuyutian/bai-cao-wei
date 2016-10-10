@@ -1,0 +1,25 @@
+.list{width: 1200px;margin: 0 auto;overflow: hidden;padding: 10px 31px 10px 32px;}
+.re-mai{width: 1200px;height: 14px;text-align: center;border-bottom: 2px solid #ebebeb;padding-top: 14px;margin-bottom: 20px;}
+.re-mai h2{color: #333;font-size: 16px;line-height: 22px;}
+.re-shop{width: 1200px;}
+.re-shop li{width: 1200px;overflow: hidden;padding: 25px 0;border: 2px solid #EBEBEB;margin-bottom: 5px;}
+.re-left{width: 600px;float: left;}
+.re-left img{width: 600px;}
+.re-right{width: 600px;float: left;position: relative;height: 350px;}
+.buy-cost{width: 600px;height:40px;position: absolute;left: 0;bottom: 0;}
+.buy-cost .price{color: red;font-size: 18px;margin-left: 20px;}
+.buy-cost .disbox{color: cadetblue;font-size: 12px;}
+.buy-cost .count{display: block;position: absolute;right: 20px;bottom: 0;font-size: 14px;}
+.buy{position: absolute;right: 20px;bottom: 20px;width: 100px;height: 30px;background: red;text-align: center;line-height: 30px;}
+.buy a{color: white;}
+.re-list{overflow: hidden;margin:10px}
+.re-list li{float: left;margin-right: 10px;}
+.re-list li a{color: cadetblue;}
+.list-re{width: 1200px;height: 14px;text-align: center;border-bottom: 2px solid #ebebeb;padding-top: 14px;margin-bottom: 20px;}
+.list-re h2{color: #333;font-size: 16px;line-height: 22px;}
+.buy-off{overflow: hidden;}
+.buy-off li{float: left;width: 390px;margin: 5px 3px;position: relative;height: 370px;border: 1px solid gainsboro;}
+.buy-off li .buycate{display: block;width: 100px;height: 30px;background: red;text-align: center;line-height: 30px;position: absolute;right: 0;}
+.buycate a{color: white;}
+.buy-off li .npr{color: red;font-size: 30px;}
+.buy-off li .opr,.buy-off li .count{font-size: 12px;}

@@ -1,0 +1,63 @@
+.deta{width: 1200px;margin: 0 auto;overflow: hidden;padding: 10px 32px 10px 31px;}
+.deta a{color: grey;}
+.shar{width: 400px;float: left;}
+.shar1{padding: 20px;border: 1px solid gray;margin-bottom: 10px;}
+.shar1 img{width: 360px;height: 360px;display: none;}
+.shar1 .img1{display: block;}
+.frame{border: 1px solid grey;}
+.shar-list{width: 400px;overflow: hidden;}
+.shar-list li{float: left;margin: 0 11px;}
+.shar-list li img{width: 50px;height: 50px;}
+
+.date-minute {width: 570px;margin: 0 25px;overflow: hidden;float: left;}
+.date-minute p{margin: 10px 0;color: grey;}
+.pro{overflow: hidden;}
+.pro .pro1{padding: 12px 0 5px 0;background: #EBEBEB;
+			border-bottom: lightcoral solid 1px;border-top: lightcoral solid 1px;}
+.pro .pro1 span{color: red;font-size: 24px;margin-left: 30px;}
+.pro2{overflow: hidden;}
+.pro .pro2{background: #fff4f2;padding: 5px 0;}
+.pro .pro2 ul li{float: left;margin-left:50px ;}
+.pro2 ul li a{color: grey;}
+.sales{overflow: hidden;margin: 10px 0;}
+.sales li{float: left;margin-left: 20px;}
+.deli {overflow: hidden;padding: 3px 0;}
+.pro .deli li{float: left;}
+.deli li span{border: cadetblue solid 1px;cursor: pointer;margin:0 5px;}
+.amount{width: 80px;margin-left: 50px;margin-top:30px ;float: left;}
+.amount .nums{width: 50px;height: 52px;border: gainsboro solid 1px;
+			text-align: center;line-height: 52px;float: left;font-size: 30px;}
+.amount .jia,.amount .jian{width: 25px;height: 25px;font-size: 24px;
+			float: left;border: gainsboro solid 1px;text-align: center;line-height: 24px;cursor: pointer}
+.amount1{width: 100px;height: 52px;background: red;color: white;
+			text-align: center;line-height: 52px;font-size: 16px;
+			float: left;margin-top: 30px;cursor: pointer;margin-left: 20px;}
+.tag{border-top:solid 1px gainsboro ;margin-top: 30px;padding: 10px 0;}
+.tag ul{overflow: hidden;}
+.tag ul li{float: left;margin-left: 20px;}
+
+.deta-change{width: 180px;float: left;}
+.deta-change .change1{border: gainsboro solid 1px;padding: 5px;}
+.change1 em{style: none;margin-right: 30px;}
+.change1 span{color: gray;cursor: pointer;}
+.deta-change .change2{border: gainsboro solid 1px;padding: 30px;}
+.change2 ul li p{text-align: center;color: red;}
+/*商品介绍*/
+.present{width: 1200px;margin: 0 auto;overflow: hidden;padding: 10px 32px 10px 31px;}
+.present-left{width: 200px;float: left;border: gainsboro solid 1px;}
+.present-img{width: 750px;float: left;margin: 0 120px;}
+.present-left .seller img{width: 62px;height: 62px;float: left;}
+.present-left .seller li{margin-bottom: 10px;}
+.present-left h3{height: 30px;text-align: center;line-height: 30px;background: red;color: white;margin-top: 10px;}
+
+.right-top {border: gainsboro solid 1px;margin-left: 10px;}
+.right-top ul{overflow: hidden;}
+.right-top ul li{width: 111px;height: 42px;text-align: center;line-height: 42px;border-right:  gainsboro solid 1px;float: left;}
+.canshu {overflow: hidden;background: cadetblue;}
+.canshu dd{width: 330px;float: left;margin-bottom: 20px;}
+/*遮盖层的样式*/
+.lap{text-align: center;}
+.lap p{margin: 20px 0;}
+.lap div{margin-left: 100px;margin-bottom: 20px;cursor: pointer;}
+.lap .lap1{width: 100px;height:50px ;border: gainsboro solid 1px;text-align: center;line-height: 50px;}
+.lap .lap2{width: 100px;height:50px ;border: gainsboro solid 1px;text-align: center;line-height: 50px;background: red;color: white;}

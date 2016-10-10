@@ -1,0 +1,21 @@
+.login{margin: 0 auto;width: 963px;background:whitesmoke;padding: 10px 150px;overflow:hidden;}
+.login .login-img{width: 510px; margin-right: 53px;;float: left;}
+.login-img img{width: 510px;height: 315px;}
+.login .login-lg{width: 330px;float: left;padding: 45px 35px 0 35px;background: white;}
+.lg-top{width: 330px;overflow: hidden;}
+.lg-top h3{float: left;font-size: 14px;color: #666;}
+.lg-top a{float: right;color: rgb(153,153,153);font-size: 14px;}
+.lg-top a:hover{color: red;}
+.login-form{width: 330px;}
+.f-input{padding: 14px 18px;margin-bottom: 10px;border: 1px solid #dedede;}
+.user{display: inline-block;width: 42px;background:url(img/login_new.png) no-repeat -50px 4px ;}
+.iptx{width: 230px;height: 24px;padding-left:3px;
+		line-height: 24px;font-size: 14px;outline-style:none;border: none;}
+.f-pass{padding: 14px 18px;margin-bottom: 10px;border: 1px solid #dedede;}
+.pass{display: inline-block;width: 42px;background:url(img/login_new.png) no-repeat -150px 4px ;}
+.iptp{width: 230px;height: 24px;padding-left:3px;
+		line-height: 24px;font-size: 14px;outline-style:none;border: none;}
+.f-check{width: 330px;overflow: hidden;margin-bottom: 10px;}
+.f-check a{display: inline-block; float: right;color: rgb(153,153,153);}
+.login-form .btn{width: 330px;height: 52px;background: red;color: white;cursor: pointer;
+			text-align: center;line-height: 52px;font-size: 16px;border: none;outline-style: none;margin-bottom: 10px;}

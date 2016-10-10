@@ -1,0 +1,26 @@
+.register{width: 1183px;background: whitesmoke;padding: 30px 31px 0 32px;margin: 0 auto;position: relative;}
+.register-list{position: absolute;}
+.register-list li{position: absolute;width: 1200px;height: 500px;}
+.re-mode{width: 330px;margin-left: 435px;position: relative;}
+.re-mode h4{text-align: center;}
+.re-mode ul li{margin-bottom: 10px;}
+.re-mode ul li p{background: greenyellow;position: absolute;right: -100px;}
+.re-mode label{width: 330px;height: 52px;border: cadetblue solid 1px;display: block;line-height: 52px;border-radius:5px ;}
+.re-mode input{width: 250px;height: 50px;line-height: 30px;border: none;outline-style: none;background:none;font-size: 24px;}
+.re-mode .veri{width: 150px;display: inline-block;}
+.re-mode .veri input{width: 150px;}
+.re-mode em{float: left;}
+.re-mode .num{width: 175px;height: 52px;text-align: center;line-height: 52px;border: cadetblue solid 1px;float: right;}
+.re-mode .btn{background: red;width: 330px;height: 52px;color: white;text-align: center;line-height: 52px;font-size: 16px;}
+.re-mode span{position: absolute;}
+.re-mode .user{width: 180px;background: gray;position: absolute;top: 30px;right: -185px;display: none;z-index: 100;}
+.re-mode .phone{width: 180px;background: gray;position: absolute;top: 90px;right: -185px;display: none;z-index: 100;}
+.re-mode .pass{width: 180px;background: gray;position: absolute;top: 220px;right: -185px;display: none;z-index: 100;}
+.re-mode .spass{width: 130px;background: gray;position: absolute;top: 300px;right: -135px;display: none;z-index: 100;}
+.input-list p{background: rgb(255,244,215);position: absolute;right: -100px;}
+.re-form .user1{top:46px}
+.re-form .phone1{top:104px}
+.re-form .num1{top: 169px;}
+.re-form .pass1{top: 236px;}
+.re-form .spass1{top: 298px;}
+
