@@ -22,6 +22,7 @@ jQuery(function($){
 	$.ajaxSetup({
 		url:"../data/goods.json",
 		async:true,
+		dataType:"json",
 		success:function(rel){
 			console.log(rel);
 		}
@@ -46,7 +47,7 @@ jQuery(function($){
 					var $li4=$("<li/>").append($("<span/>").html("广东"));
 					var $li5=$("<li/>").html("运费6.00元  满68.00包邮");
 					var $ul2=$("<ul/>").append($li3).append($li4).append($li5).addClass("deli");
-					var $div3=$("<div/>").html(1).addClass("nums");
+					var $div3=$("<div/>").html("1").addClass("nums");
 					var $div4=$("<div/>").html("+").addClass("jia");
 					var $div5=$("<div/>").html("-").addClass("jian");
 					var $div6=$("<div/>").addClass("amount").append($div3).append($div4).append($div5);
@@ -63,43 +64,44 @@ jQuery(function($){
 						//定义一个空的对象
 						var goods={};
 						//获取已有的cook
-						var oldcook=getCookie("src1");
+						var oldcook=getCookie("srcx");
 						if (oldcook == "") {
-							goods.src=obj.src;
+							goods.src=obj.src1;
 							goods.num=$(".nums").html();
 							goods.prc=obj.prc;
 							goods.name=obj.name;
 							goods_list.push(goods);
-							console.log("y")
+							console.log("y");
 						}else{
 							//把cook字符串转化成数组
-							var goodlist=JSON.parse(oldcook);
+							goods_list=JSON.parse(oldcook);
 							//遍历字符串,是否有相同的src
 							var t=true;
-							for (var i=0;i<goodlist.length;i++) {
-								if (goodlist[i].src == obj.src) {
-									console.log(goodlist[i].num);
-									console.log($(".nums").html());
-									goodlist[i].num=parseInt(goodlist[i].num)+parseInt($(".nums").html());
+							for (var i=0;i<goods_list.length;i++) {
+								console.log(goods_list[i].src);
+								console.log(obj.src);
+								if (goods_list[i].src == obj.src1) {
+									goods_list[i].num=parseInt(goods_list[i].num)+parseInt($(".nums").html());
 									t=false;
 									break;
 								}
 							}
 							//如果没有相同的src 把信息存入到新的对象中并加入到数组
 							if (t) {
-								goods.src=obj.src;
+								goods.src=obj.src1;
 								goods.num=$(".nums").html();
 								goods.prc=obj.prc;
 								goods.name=obj.name;
 								goods_list.push(goods);
 							}
 						}
+						console.log(goods_list);
 						//把数组转换成字符串
 						var goods_str=JSON.stringify(goods_list);
 						//把数组存入到cook中
 						var d = new Date;
 						d.setDate(d.getDate() + 10);
-						setCookie("src1",goods_str,d,"/");
+						setCookie("srcx",goods_str,d,"/");
 					});
 				}
 			});
