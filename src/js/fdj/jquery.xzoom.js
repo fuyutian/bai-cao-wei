@@ -24,7 +24,7 @@
 			var $smallImg = $('img',$self);
 
 			// 如果没有data-big属性，则直接使用小图的src属性
-			// var bigUrl = $smallImg.attr('data-big') || $smallImg.attr('src');
+			var bigUrl = $smallImg.attr('data-big') || $smallImg.attr('src');
 
 			// 执行初始化操作
 			$smallImg.load(function(){
@@ -42,9 +42,7 @@
 					height:opt.height/ratio,
 				}).appendTo($self);
 
-				// 设置$min的位置
-				// pageX = clientX + scrollLeft
-				// pageY = clientY + scrollTop
+			
 				
 			}).on('mouseleave',function(){
 				$big.remove();
@@ -82,14 +80,12 @@
 
 			// 初始化
 			function init(){
-				var bigUrl = $smallImg.attr('data-big') || $smallImg.attr('src');
-
 				// 添加全局类名xzoom
 				$self.addClass('xzoom').width($smallImg.outerWidth());
 
 				// 创建大图
 				$big = $('<div/>').addClass('xzoom-big');
-				$bigImg = $('<img/>').attr({src:bigUrl});
+				$bigImg = $('<img/>').attr({src:bigUrl}).addClass("shar2");
 
 				// 把大图写入页面
 				$big.append($bigImg).appendTo('body');

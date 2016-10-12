@@ -2,12 +2,8 @@
 .deta a{color: grey;}
 .shar{width: 400px;float: left;}
 .shar1{padding: 20px;border: 1px solid gray;margin-bottom: 10px;}
-.shar1 img{width: 360px;height: 360px;display: none;}
-.shar1 .img1{display: block;}
-.frame{border: 1px solid grey;}
-.shar-list{width: 400px;overflow: hidden;}
-.shar-list li{float: left;margin: 0 11px;}
-.shar-list li img{width: 50px;height: 50px;}
+.shar1 img{width: 360px;height: 360px;}
+.shar2{width: 800px;height: 800px;}
 
 .date-minute {width: 570px;margin: 0 25px;overflow: hidden;float: left;}
 .date-minute p{margin: 10px 0;color: grey;}
@@ -56,6 +52,7 @@
 .canshu {overflow: hidden;background: cadetblue;}
 .canshu dd{width: 330px;float: left;margin-bottom: 20px;}
 /*遮盖层的样式*/
+.cover{width: 100%;height: 1256px;background: rgba(0,0,0,0.3);}
 .lap{text-align: center;}
 .lap p{margin: 20px 0;}
 .lap div{margin-left: 100px;margin-bottom: 20px;cursor: pointer;}

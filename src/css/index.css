@@ -29,35 +29,35 @@ background:url(img/hnlbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
 .hnl2,.hnl3{width:475px ;float: left;}
 .hnl2 img,.hnl3 img{width: 475px;height: 249px;}
 .hnl2{margin-bottom: 6px;}
-.hnl .hnl-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;}
-.hnl .hnl-list li img{width: 320px;height: 369px;}
+.hnl #hnl-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;height: 369px;}
+.hnl #hnl-list li img{width: 320px;height: 369px;}
 /**************************店长推荐***********************/
 .choose{width: 975px;overflow: hidden;margin: 0 auto;
 background:url(img/hnlbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
 .choose .choose-top img{width: 975px;}
-.choose .choose-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;}
-.choose .choose-list li img{width: 320px;height: 367px;}
+.choose #choose-list li{width: 320px;margin-right: 5px;float: left;overflow: hidden;}
+.choose #choose-list li img{width: 320px;height: 367px;}
 /**************************干果***********************/
 .nuts{width: 975px;overflow: hidden;margin: 0 auto;
 background:url(img/nutsbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
 .nuts-top img{width: 968px;}
 .nuts .nuts-nav li{float: left;width: 121px;}
 .nuts .nuts-nav li img{width: 121px;}
-.nuts-list li{float: left;width: 240px;margin-right:3px ;}
-.nuts-list li img{width: 240px;}
+#nuts-list li{float: left;width: 240px;margin-right:3px ;height: 235px;}
+#nuts-list li img{width: 240px;height: 235px;}
 /**************************果脯***********************/
 .meat{width: 975px;overflow: hidden;margin: 0 auto;
 background:url(img/meatbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
 .meat-top img{width: 968px;}
 .meat .meat-nav li{float: left;width: 121px;}
 .meat .meat-nav li img{width: 121px;}
-.meat-list li{float: left;width: 240px;margin-right:3px ;}
-.meat-list li img{width: 240px;}
+#meat-list li{float: left;width: 240px;margin-right:3px ;height: 235px;}
+#meat-list li img{width: 240px;height: 235px;}
 /**************************鲜果***********************/
 .fresh{width: 975px;overflow: hidden;margin: 0 auto;
 background:url(img/freashbg.jpg) repeat left top;padding: 0 138px 74px 150px;}
 .fresh-top img{width: 968px;}
 .fresh .fresh-nav li{float: left;width: 121px;}
 .fresh .fresh-nav li img{width: 121px;}
-.fresh-list li{float: left;width: 240px;margin-right:3px ;}
-.fresh-list li img{width: 240px;}
+#fresh-list li{float: left;width: 240px;margin-right:3px ;height: 235px;}
+#fresh-list li img{width: 240px;height: 235px;}

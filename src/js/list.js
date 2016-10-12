@@ -1,7 +1,7 @@
 jQuery(function($){
 	//配置全局ajax请求
 	$.ajaxSetup({
-		url:"../data/list.json",
+		url:"../data/goods.json",
 		async:true,
 		success:function(rel){
 			console.log(rel);
@@ -35,6 +35,19 @@ jQuery(function($){
 					$li.append($div1).append($div3).appendTo($list);
 				}
 			});
+			
+			//  点击图片或购买 取得id 保存到cook中
+			$list.on("click","img",function(){
+				var $src=$(this).attr("src");
+				var d = new Date;
+				d.setDate(d.getDate() + 10);
+				setCookie("src",$src,d,"/");
+			});
+			//点击购买按钮.获取src
+//			$list.on("click",".buy",function(){
+//				var $src=$(this).siblings(".re-left").find("img").attr("src");
+//				console.log($src);
+//			});
 		}
 	});
 	//利用懒加载,实现ajax的加载
@@ -140,6 +153,13 @@ jQuery(function($){
 						
 					});
 				}
+			});
+			//  点击图片或购买 取得id 保存到cook中
+			$(".buy-off").on("click","img",function(){
+				var $src=$(this).attr("src");
+				var d = new Date;
+				d.setDate(d.getDate() + 10);
+				setCookie("src",$src,d);
 			});
 		}
 	});

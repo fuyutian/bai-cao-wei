@@ -1,0 +1,20 @@
+.shoping{width: 980px;overflow: hidden;margin: 0 auto;padding:20px 141.5px ;background: rgb(235,235,240);}
+.shop-top{width: 980px;overflow: hidden;}
+.shop-top .top1{width: 450px;float: left;height: 30px;}
+.shop-top .top1 span{border: solid 1px cadetblue;margin-left: 10px;}
+.shop-top .top2{width: 530px;height: 30px;float: left;}
+.shop-top .top2 .span1{width: 150px;height: 30px;display: inline-block;}
+.shop-top .top2 .span2{width: 120px;height: 30px;display: inline-block;}
+.shop-top .top2 .span3{width: 100px;height: 30px;display: inline-block;}
+.shop-top .top2 .span4{width: 83px;height: 30px;display: inline-block;}
+.shop-top .top2 .span5{width: 60px;height: 30px;}
+
+.shop-list{width: 980px;padding: 10px 0;background: white;overflow: hidden;}
+.shop-list .box1{width: 450px;float: left;height: 30px;}
+.shop-list .box1 img{float: left;width: 60px;height: 60px;}
+.shop-list .box2{width: 530px;height: 30px;float: left;}
+.shop-list .box2 .span1{width: 150px;height: 30px;display: inline-block;}
+.shop-list .box2 .span2{width: 120px;height: 30px;display: inline-block;}
+.shop-list .box2 .span3{width: 100px;height: 30px;display: inline-block;}
+.shop-list .box2 .span4{width: 83px;height: 30px;display: inline-block;}
+.shop-list .box2 .span5{width: 60px;height: 30px;}

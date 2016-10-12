@@ -1,4 +1,0 @@
-.fzoom{position: relative;}
-.fzoom .fzoom-min{position: absolute;width: 100px;height:50px;left: 0;top: 0;border: cadetblue solid 1px;background: rgba(255,255,0,0.3);}
-.fzoom-big{position: absolute;width: 300px;height: 300px;overflow: hidden;}
-.fzoom-img{position: absolute;left:0;top: 0;}
