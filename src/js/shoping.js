@@ -14,11 +14,14 @@ jQuery(function($){
 			var $spand2=$("<span/>").html(cooklist[i].num);
 			var $spand3=$("<span/>").html("+").addClass("jia1");
 			var $div2=$("<div/>").append($spand1).append($spand2).append($spand3).addClass("span2");
-			var $span3=$("<span/>").html(parseInt($(".span2 span").eq(1).html())*parseFloat(cooklist[i].prc)).addClass("span3");
+			var $span3=$("<span/>").addClass("span3");
 			var $span4=$("<span/>").addClass("span4");
 			var $span5=$("<span/>").html("删除").addClass("span5");
 			var $div3=$("<div/>").append($span1).append($div2).append($span3).append($span4).append($span5).addClass("box2");
 			var $li=$("<li/>").append($div1).append($div3).appendTo($(".shop-list"));
+			var no=$div2.children("span").eq(1).html()*1;
+			var prc=$span1.html()*1;
+			$span3.html(no*prc);
 		}
 	}
 	//点击加减符号,实现商品数量的加减
