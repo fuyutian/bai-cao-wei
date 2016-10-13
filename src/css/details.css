@@ -1,10 +1,12 @@
 .deta{width: 1200px;margin: 0 auto;overflow: hidden;padding: 10px 32px 10px 31px;}
 .deta a{color: grey;}
+/*商品详情*/
 .shar{width: 400px;float: left;}
+/*图片*/
 .shar1{padding: 20px;border: 1px solid gray;margin-bottom: 10px;}
 .shar1 img{width: 360px;height: 360px;}
 .shar2{width: 800px;height: 800px;}
-
+/*商品详细信息*/
 .date-minute {width: 570px;margin: 0 25px;overflow: hidden;float: left;}
 .date-minute p{margin: 10px 0;color: grey;}
 .pro{overflow: hidden;}
@@ -31,7 +33,7 @@
 .tag{border-top:solid 1px gainsboro ;margin-top: 30px;padding: 10px 0;}
 .tag ul{overflow: hidden;}
 .tag ul li{float: left;margin-left: 20px;}
-
+/*最右侧商品栏*/
 .deta-change{width: 180px;float: left;}
 .deta-change .change1{border: gainsboro solid 1px;padding: 5px;}
 .change1 em{style: none;margin-right: 30px;}
@@ -45,7 +47,7 @@
 .present-left .seller img{width: 62px;height: 62px;float: left;}
 .present-left .seller li{margin-bottom: 10px;}
 .present-left h3{height: 30px;text-align: center;line-height: 30px;background: red;color: white;margin-top: 10px;}
-
+/*商品产地等信息*/
 .right-top {border: gainsboro solid 1px;margin-left: 10px;}
 .right-top ul{overflow: hidden;}
 .right-top ul li{width: 111px;height: 42px;text-align: center;line-height: 42px;border-right:  gainsboro solid 1px;float: left;}

@@ -1,3 +1,4 @@
+/*热卖爆款样式*/
 .list{width: 1200px;margin: 0 auto;overflow: hidden;padding: 10px 31px 10px 32px;}
 .re-mai{width: 1200px;height: 14px;text-align: center;border-bottom: 2px solid #ebebeb;padding-top: 14px;margin-bottom: 20px;}
 .re-mai h2{color: #333;font-size: 16px;line-height: 22px;}
@@ -12,9 +13,11 @@
 .buy-cost .count{display: block;position: absolute;right: 20px;bottom: 0;font-size: 14px;}
 .re-shop .buy{position: absolute;right: 20px;bottom: 20px;width: 100px;height: 30px;background: red;text-align: center;line-height: 30px;}
 .buy a{color: white;}
+/*菜单栏样式*/
 .re-list{overflow: hidden;margin:10px}
 .re-list li{float: left;margin-right: 10px;}
 .re-list li a{color: cadetblue;}
+/*各种分类商品的样式*/
 .list-re{width: 1200px;height: 14px;text-align: center;border-bottom: 2px solid #ebebeb;padding-top: 14px;margin-bottom: 20px;}
 .list-re h2{color: #333;font-size: 16px;line-height: 22px;}
 .buy-off{overflow: hidden;}

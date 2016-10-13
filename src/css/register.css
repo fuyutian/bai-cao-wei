@@ -1,6 +1,8 @@
 .register{width: 1183px;background: whitesmoke;padding: 30px 31px 0 32px;margin: 0 auto;position: relative;}
+/*背景图片的样式*/
 .register-list{position: absolute;}
 .register-list li{position: absolute;width: 1200px;height: 500px;}
+/*注册表单的样式*/
 .re-mode{width: 330px;margin-left: 435px;position: relative;}
 .re-mode h4{text-align: center;}
 .re-mode ul li{margin-bottom: 10px;}
@@ -23,4 +25,5 @@
 .re-form .num1{top: 169px;}
 .re-form .pass1{top: 236px;}
 .re-form .spass1{top: 298px;}
-
+/*弹出盒子样式*/
+.tanchu {text-align: center;color: red;display:none}

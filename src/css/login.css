@@ -1,6 +1,8 @@
 .login{margin: 0 auto;width: 963px;background:whitesmoke;padding: 10px 150px;overflow:hidden;}
+/*登录表单左侧图片的样式*/
 .login .login-img{width: 510px; margin-right: 53px;;float: left;}
 .login-img img{width: 510px;height: 315px;}
+/*登录表单样式*/
 .login .login-lg{width: 330px;float: left;padding: 45px 35px 0 35px;background: white;}
 .lg-top{width: 330px;overflow: hidden;}
 .lg-top h3{float: left;font-size: 14px;color: #666;}
@@ -19,3 +21,5 @@
 .f-check a{display: inline-block; float: right;color: rgb(153,153,153);}
 .login-form .btn{width: 330px;height: 52px;background: red;color: white;cursor: pointer;
 			text-align: center;line-height: 52px;font-size: 16px;border: none;outline-style: none;margin-bottom: 10px;}
+/*提示框*/
+.tishi{text-align: center;color: red;display: none;}

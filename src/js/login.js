@@ -9,14 +9,21 @@ jQuery(function($){
 		var phonecook=getCookie("phone");
 		var passcook=getCookie("password");
 		console.log(usercook+phonecook+passcook);
-		if (user==usercook || user == phonecook) {
-			if ( pass == passcook) {
-				return "";
-			}else{
-				alert("密码错误");
-			}
-		}else{
-			alert("帐号错误");
-		}
+		//判断用户输入的信息
+		if (user == "" || pass=="") {
+			$(".tishi").show();
+			$(".tishi h4").html("填写信息");
+		}else	if (user==usercook || user == phonecook) {
+					if ( pass == passcook) {
+						location.assign("../index.html");
+						$(".tishi").hide();
+					}else{
+						$(".tishi").show();
+						$(".tishi h4").html("密码错误");
+					}
+				}else{
+					$(".tishi").show();
+					$(".tishi h4").html("帐号错误");
+				}
 	});
 });
