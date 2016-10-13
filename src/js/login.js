@@ -8,6 +8,7 @@ jQuery(function($){
 		var usercook=getCookie("username");
 		var phonecook=getCookie("phone");
 		var passcook=getCookie("password");
+		console.log(usercook+phonecook+passcook);
 		if (user==usercook || user == phonecook) {
 			if ( pass == passcook) {
 				return "";

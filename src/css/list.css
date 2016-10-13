@@ -10,7 +10,7 @@
 .buy-cost .price{color: red;font-size: 18px;margin-left: 20px;}
 .buy-cost .disbox{color: cadetblue;font-size: 12px;}
 .buy-cost .count{display: block;position: absolute;right: 20px;bottom: 0;font-size: 14px;}
-.buy{position: absolute;right: 20px;bottom: 20px;width: 100px;height: 30px;background: red;text-align: center;line-height: 30px;}
+.re-shop .buy{position: absolute;right: 20px;bottom: 20px;width: 100px;height: 30px;background: red;text-align: center;line-height: 30px;}
 .buy a{color: white;}
 .re-list{overflow: hidden;margin:10px}
 .re-list li{float: left;margin-right: 10px;}

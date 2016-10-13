@@ -1,0 +1,31 @@
+/*顶部一些提示信息*/
+.shoping{width: 980px;overflow: hidden;margin: 0 auto;padding:20px 141.5px ;background: rgb(235,235,240);}
+.shop-top{width: 980px;overflow: hidden;}
+.shop-top .top1{width: 450px;float: left;height: 30px;}
+.shop-top .top1 span{border: solid 1px cadetblue;margin-left: 10px;overflow: hidden;}
+.shop-top .top2{width: 530px;height: 30px;float: left;}
+.shop-top .top2 .span1{width: 150px;height: 30px;display: inline-block;margin-left: 10px;}
+.shop-top .top2 .span2{width: 120px;height: 30px;display: inline-block;}
+.shop-top .top2 .span3{width: 100px;height: 30px;display: inline-block;}
+.shop-top .top2 .span4{width: 83px;height: 30px;display: inline-block;}
+.shop-top .top2 .span5{width: 60px;height: 30px;}
+/*商品信息显示*/
+.shop-list{width: 980px;padding: 10px 0;background: white;overflow: hidden;}
+.shop-list li{overflow: hidden;height: 70px;margin-bottom: 10px;border-top: solid 1px gainsboro;border-bottom: solid 1px gainsboro;}
+.shop-list .box1{width: 450px;float: left;height: 30px;}
+.shop-list .box1 img{float: left;width: 60px;height: 60px;}
+.shop-list .box2{width: 530px;height: 30px;float: left;}
+.shop-list .box2 .span1{width: 150px;height: 30px;display: inline-block;margin-left: 10px;}
+.shop-list .box2 .span2{width: 120px;height: 30px;display: inline-block;}
+.shop-list .box2 .span2 span{width: 30px;height: 28px;text-align: center;line-height: 28px;display: inline-block;border: cadetblue solid 1px;}
+.shop-list .box2 .span3{width: 100px;height: 30px;display: inline-block;}
+.shop-list .box2 .span4{width: 83px;height: 30px;display: inline-block;}
+.shop-list .box2 .span5{width: 60px;height: 30px;cursor: pointer;}
+.jian1,.jia1{color: red;cursor: pointer;}
+/*结算商品价格*/
+.settle{background: white;margin-top: 20px;padding: 10px 0;overflow: hidden;position: relative;}
+.settle .s1{color: cornflowerblue;cursor: pointer;margin-left:20px ;}
+.settle .s2{margin-left: 600px;}
+.settle .s2 span{color: red;}
+.settle .s3{width: 100px;height: 50px;background: red;color: wheat;
+	text-align: center;line-height: 50px;margin-left: 100px;display:inline-block;cursor: pointer;}
