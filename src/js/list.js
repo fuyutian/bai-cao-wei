@@ -160,7 +160,7 @@ jQuery(function($){
 				var $src=$(this).attr("src");
 				var d = new Date;
 				d.setDate(d.getDate() + 10);
-				setCookie("src",$src,d);
+				setCookie("src",$src,d,"/");
 			});
 		}
 	});

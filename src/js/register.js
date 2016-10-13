@@ -89,6 +89,7 @@ jQuery(function($){
 	$(".re-form input").eq(5).on("click",function(){
 		//判断是否填写完全正确
 		if (t1==1 && t2==1 && t3==1 && t4==1 && t5==1) {
+			$(".tanchu").hide();
 			//获取用户名 手机号码 和密码
 			var user=$(".re-form input").eq(0).val();
 			var phone=$(".re-form input").eq(1).val();
@@ -100,7 +101,6 @@ jQuery(function($){
 			setCookie("password",pass,d);
 			console.log(decodeURIComponent(document.cookie));
 			location.assign("../index.html");
-			$(".tanchu").hide();
 		}else{
 			$(".tanchu").show();
 		}
