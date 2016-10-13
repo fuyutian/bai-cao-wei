@@ -1,4 +1,5 @@
 jQuery(function($){
+	//设置一些全局变量
 	var $lbt=$(".lbt-list");
 	var $hnl=$("#hnl-list");
 	var $choose=$("#choose-list");
@@ -13,6 +14,7 @@ jQuery(function($){
 		success:function(rel){
 			//通过遍历查找,生成图片和链接
 			$.each(rel, function(idx,obj) {
+				//生成轮播图
 				if (obj.class == "lbt") {
 					var $a=$("<a></a>").attr("href","html/list.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -20,6 +22,7 @@ jQuery(function($){
 					$a.append($img);
 					$li.append($a).appendTo($lbt);
 				}
+				//生成夏威夷果
 				if (obj.class == "hnl") {
 					var $a=$("<a></a>").attr("href","html/details.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -27,6 +30,7 @@ jQuery(function($){
 					$a.append($img);
 					$li.append($a).appendTo($hnl);
 				}
+				//生成店长推荐
 				if (obj.class == "choose") {
 					var $a=$("<a></a>").attr("href","html/details.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -34,6 +38,7 @@ jQuery(function($){
 					$a.append($img);
 					$li.append($a).appendTo($choose);
 				}
+				//生成干果
 				if (obj.class == "nuts") {
 					var $a=$("<a></a>").attr("href","html/details.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -41,6 +46,7 @@ jQuery(function($){
 					$a.append($img);
 					$li.append($a).appendTo($nuts);
 				}
+				//生成肉素类
 				if (obj.class == "meat") {
 					var $a=$("<a></a>").attr("href","html/details.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -48,6 +54,7 @@ jQuery(function($){
 					$a.append($img);
 					$li.append($a).appendTo($meat);
 				}
+				//生成鲜果
 				if (obj.class == "fresh") {
 					var $a=$("<a></a>").attr("href","html/details.html");
 					var $img=$("<img />").attr("src",obj.src);
@@ -63,7 +70,7 @@ jQuery(function($){
 				buttons:false,
 				type:'fade'
 			});
-			//  点击图片或购买 取得id 保存到cook中
+			//  点击图片或购买 取得src 保存到cook中
 			$(".goods").on("click","img",function(){
 				var $src=$(this).attr("src");
 				var d = new Date;
@@ -72,7 +79,7 @@ jQuery(function($){
 			});
 		}
 	});
-	//所有零食下的列表
+	//鼠标划过所有零食时,产生的效果.
 	$(".head-bottom ul").children().eq(0).on("mouseenter",function(){
 		$(".hb-list").css("display","block");
 	}).on("mouseleave",function(){

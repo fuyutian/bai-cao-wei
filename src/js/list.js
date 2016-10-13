@@ -66,6 +66,7 @@ jQuery(function($){
 				if ($(document).scrollTop() >= 900) {
 					i++;
 					$.each(rel, function(idx,obj) {
+						//加载各类商品
 						if (1 == i && obj.star == i) {
 							var $span1=$("<span/>").html(obj.prc).addClass("npr");
 							var $span2=$("<span/>").html(obj.nrc).addClass("opr");

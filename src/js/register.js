@@ -19,7 +19,7 @@ jQuery(function($){
 	
 	//运用正则表达式,来验证输入的信息,
 	//判断用户名
-	var t1=1,t2=1,t3=1,t4=1,t5=1;
+	var t1=0,t2=0,t3=0,t4=0,t5=0;
 	$(".re-form input").eq(0).on("blur",function(){
 		var str=$(this).val();
 		var istrue=/([\u4E00-\u9FA5]|\w){4,20}/.test(str);
@@ -100,8 +100,9 @@ jQuery(function($){
 			setCookie("password",pass,d);
 			console.log(decodeURIComponent(document.cookie));
 			location.assign("../index.html");
+			$(".tanchu").hide();
 		}else{
-			alert("填写正确信息");
+			$(".tanchu").show();
 		}
 	});
 	
